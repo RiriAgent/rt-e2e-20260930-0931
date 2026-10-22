@@ -18,3 +18,14 @@ in the current locale. Empty input prints `0`; missing or unknown flags print
 `usage: wc.sh -l|-w|-c` to standard error and exit with status 2.
 
 Run `sh demo3/wc/test.sh` to check the counter; success ends with `ok`.
+
+## Demo 5 word counter
+
+`demo5/wc/wc.sh` reads standard input. Use `-l` to count newline characters,
+`-w` to count whitespace-separated words, or `-c` to count characters in the
+current locale. Each successful invocation prints one count; empty input prints
+`0`. Missing or unknown flags print exactly `usage: wc.sh -l|-w|-c` to standard
+error, print no count to standard output, and exit with status 2.
+
+Run `sh demo5/wc/test.sh` from the repository root to check the counter;
+success ends with `ok`.
