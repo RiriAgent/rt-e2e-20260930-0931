@@ -1,0 +1,19 @@
+# Roundtable demo project settings. Every model role runs on gpt-6.1-sol, and
+# Roundtable seats use the two agents in .omp/agents: demo-owner implements a
+# ticket, demo-gate reviews, accepts and verifies it.
+modelRoles:
+  default: openai-codex/gpt-6.1-sol:medium
+  smol: openai-codex/gpt-6.1-sol:medium
+  slow: openai-codex/gpt-6.1-sol:medium
+  plan: openai-codex/gpt-6.1-sol:medium
+  commit: openai-codex/gpt-6.1-sol:medium
+  tiny: openai-codex/gpt-6.1-sol:medium
+  task: openai-codex/gpt-6.1-sol:medium
+  advisor: openai-codex/gpt-6.1-sol:medium
+  vision: openai-codex/gpt-6.1-sol:medium
+  web: openai-codex/gpt-6.1-sol:medium
+  judge: openai-codex/gpt-6.1-sol:medium
+defaultThinkingLevel: medium
+roundtable:
+  ownerAgent: demo-owner
+  gateAgent: demo-gate
