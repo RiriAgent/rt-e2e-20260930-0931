@@ -6,4 +6,4 @@ Current version: v2.
 
 ## Usage
 
-Run `./hello.sh`. See [the badge](badge.svg) and [usage](#missing-anchor).
+Run `./hello.sh`. See [the badge](badge.svg) and [usage](#usage).
