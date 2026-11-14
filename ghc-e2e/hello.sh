@@ -3,6 +3,6 @@
 set -euo pipefail
 case "${1:-}" in
   "") echo "hello v3" ;;
-  --version) echo "2" ;;
+  --version) echo "3" ;;
   *) echo "unknown argument: $1" >&2; exit 2 ;;
 esac
